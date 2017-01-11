@@ -1,0 +1,26 @@
+# Welcome to Sonic Pi v2.11.1
+use_synth :saw
+with_fx :distortion do
+  2.times do
+    play 60
+    sleep 0.5
+    play 62
+    sleep 0.5
+    play 64
+    sleep 0.5
+    play 60
+    sleep 0.5
+  end
+  2.times do
+    play 64
+    sleep 0.5
+    play 65
+    sleep 0.5
+    play 67
+    sleep 1
+  end
+end
+
+
+
+
